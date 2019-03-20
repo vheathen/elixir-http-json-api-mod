@@ -22,7 +22,7 @@ defmodule MinimalServer.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:poison, "~> 3.0"},
+      {:poison, "~> 4.0"},
       {:plug, "~> 1.7"},
       {:cowboy, "~> 2.5"},
       {:plug_cowboy, "~> 2.0"}
