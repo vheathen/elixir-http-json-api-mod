@@ -1,21 +1,17 @@
-# MinimalServer
+# Простейший JSON RESTful API на Эликсир
 
-**TODO: Add description**
+Пример кода для статьи [Простейший JSON RESTful API на Эликсир](https://habr.com/ru/post/444554/) на Habr.com
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `minimal_server` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:minimal_server, "~> 0.1.0"}
-  ]
-end
+Клонируйте репо с помощью:
+```
+git clone https://github.com/vheathen/elixir-http-json-api-mod.git minimal_server
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/minimal_server](https://hexdocs.pm/minimal_server).
+Скачайте зависимости и запустите проект:
+```
+cd minimal_server
+mix deps.get
+mix run --no-halt
+```
 
+Откройте браузер и перейдите на `http://localhost:4000/bot`
